@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<title>CSS3 background-clip</title>
+<meta charset="utf-8">
+<style>
+
+.test {  background-clip: content-box; 
+         background-image: url(myislandback.jpg);
+         border: 10px dashed #000;
+         padding: 20px;
+         width: 400px; 
+ }
+.test1 { background-clip: padding-box;
+         background-image: url(myislandback.jpg);
+         border: 10px dashed #000;
+         padding: 20px;
+         width: 400px;
+ }
+.test2 { background-clip: border-box;
+         background-image: url(myislandback.jpg);
+         border: 10px dashed #000;
+         padding: 20px;
+         width: 400px; 
+ }
+
+</style>
+</head>
+<body>
+<div class="test">
+<h1>Tropical Island</h1>
+<p>
+Enjoy relaxing in the warm sunshine on your own tropical island retreat. 
+</p>
+</div>
+<br>
+<div class="test1">
+<h1>Tropical Island</h1>
+<p>
+Enjoy relaxing in the warm sunshine on your own tropical island retreat. 
+</p>
+</div>
+<br>
+<div class="test2">
+<h1>Tropical Island</h1>
+<p>
+Enjoy relaxing in the warm sunshine on your own tropical island retreat. 
+</p>
+</div>
+</body>
+</html>

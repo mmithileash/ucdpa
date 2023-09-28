@@ -1,0 +1,78 @@
+
+body { font-family: Tahoma, Verdana, Arial, sans-serif; 
+       margin: 0; padding: 0;
+       }
+.hero { 
+    background-image: url(beached.jpg); 
+    min-height: 100vh;  
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+	padding: 0;
+}
+.tourshero { 
+    background-image: url(kayaks.jpg); 
+    min-height: 100vh;
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+ }
+.rentalshero { 
+    background-image: url(rentals.jpg); 
+    min-height: 100vh; 
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+ }
+ .contacthero { 
+    background-image: url(lonekayak.jpg); 
+    min-height: 100vh;  
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+ }
+ 
+nav { z-index:9999;
+      position: fixed;
+	  top: 0;
+	  left: 0;
+	  padding: .5em;
+	  height: 40px;
+	  background:rgba(25,25, 25, 0.70);
+	  width: 100%;
+	  font-size: 120%;
+	  font-weight: bold;
+	  min-width: 900px;
+ }
+nav ul { list-style-type: none; 
+         margin: 5px; }
+nav ul li { display: inline; padding-left: 2em; padding-right: 2em; }
+nav a { text-decoration:none; }
+nav a:link { color: #EAEAEA; }
+nav a:visited { color: #FFF; }
+nav a:hover { color: #FDA27F; }
+h1 { height: 100px; 
+     padding-top: 2em; 
+	 text-align: center;
+     background:rgba(255, 255, 255, 0.80);
+}
+.space {height: 20vh; }
+#tours, #rentals, #contact {  background-color: #FFF;
+		                  width: 60%;
+						  padding-left: 6em;
+						  padding-top: 70px;
+						  padding-bottom: 2em; }
+footer {   background:rgba(25,25, 25, 0.90);
+         width: 100%;
+         font-size: 90%;
+         text-align: center;	
+         color: #EAEAEA; 
+
+		 position: fixed;
+         bottom: 0;}	
+footer a { text-decoration: none;  
+          color: #EAEAEA; }		

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Flexbox justify-content</title>
+<meta charset="utf-8">
+<style>
+* { margin: 0; }
+ 
+header { text-align: center; }
+main { background-color: #eaeaea; }
+	 
+h2 { padding-left: .5em ; }
+
+#gallery1 { display: flex; background-color: #FFF;
+        flex-direction: row;
+		justify-content: flex-start; }
+		
+#gallery2 { display: flex; background-color: #FFF;
+        flex-direction: row;
+		justify-content: flex-end; }
+		
+#gallery3 { display: flex; background-color: #FFF;
+        flex-direction: row;
+		justify-content: center; }
+		
+#gallery4 { display: flex; background-color: #FFF;
+        flex-direction: row;
+		justify-content: space-between; }
+		
+#gallery5 { display: flex; background-color: #FFF;
+        flex-direction: row;
+		justify-content: space-around; }		
+
+</style> 
+</head>
+<body>
+  <header>
+    <h1>Flexbox justify-content Examples</h1>
+  </header>
+  <main> 
+    <h2>flex-start</h2>
+	 <div id="gallery1">
+	   <img src="bird1.jpg" width="200" height="150" alt="Red Crested Cardinal">
+	   <img src="bird2.jpg" width="200" height="150" alt="Rose-Breasted Grosbeak">
+	   <img src="bird3.jpg" width="200" height="150" alt="Gyrfalcon">
+	 </div>
+	 <h2>flex-end</h2>
+	  <div id="gallery2">
+	   <img src="bird1.jpg" width="200" height="150" alt="Red Crested Cardinal">
+	   <img src="bird2.jpg" width="200" height="150" alt="Rose-Breasted Grosbeak">
+	   <img src="bird3.jpg" width="200" height="150" alt="Gyrfalcon">
+	 </div>
+	 <h2>center</h2>
+	  <div id="gallery3">
+	   <img src="bird1.jpg" width="200" height="150" alt="Red Crested Cardinal">
+	   <img src="bird2.jpg" width="200" height="150" alt="Rose-Breasted Grosbeak">
+	   <img src="bird3.jpg" width="200" height="150" alt="Gyrfalcon">
+	 </div>
+	 <h2>space-between</h2>
+	  <div id="gallery4">
+	   <img src="bird1.jpg" width="200" height="150" alt="Red Crested Cardinal">
+	   <img src="bird2.jpg" width="200" height="150" alt="Rose-Breasted Grosbeak">
+	   <img src="bird3.jpg" width="200" height="150" alt="Gyrfalcon">
+	 </div>
+	  <h2>space-around</h2>
+	  <div id="gallery5">
+	   <img src="bird1.jpg" width="200" height="150" alt="Red Crested Cardinal">
+	   <img src="bird2.jpg" width="200" height="150" alt="Rose-Breasted Grosbeak">
+	   <img src="bird3.jpg" width="200" height="150" alt="Gyrfalcon">
+	 </div>
+  </main>
+</body>
+</html>
+
+

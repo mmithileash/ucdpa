@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Casita Sedona</title>
+<meta charset="utf-8">
+<style>
+* { box-sizing: border-box; }
+body {font-family:  Arial, sans-serif;
+      margin: 0;
+}
+
+header { background-image: url(header.jpg);
+         background-size: cover;
+         background-repeat: no-repeat;   
+}
+
+header { grid-area: header; }
+nav    { grid-area: nav; }
+main   { grid-area: main; }
+aside  { grid-area: aside; }
+footer { grid-area: footer; }
+
+
+#wrapper { display: grid;
+           grid-template: 
+  		      "header header header " 100px
+    		    "nav    main  aside "  auto
+    		    "footer footer footer" 50px
+ 		    / 150px  1fr  30%;
+ 	}
+
+
+
+h2 { color: #2c2c54; }
+
+
+h1 { text-align: center;
+     color: #F7F1E3;
+	 font-size: 300%;
+     text-shadow: 10px 10px 10px #000000;
+}
+nav {   font-size: 120%; }
+
+nav ul { padding-left: 0;
+         display: flex; 
+	     flex-direction: row; 
+	     flex-wrap: wrap; 
+	     justify-content: space-around; }	  
+nav ul { list-style-type: none; }
+nav li { width: 20%;
+		 min-width: 6em;
+	     font-size: 110%;
+		 text-align: center;
+		 background-color: #003C58; 
+		 margin: .5em;
+		 padding: .5em; }
+nav a { text-decoration: none;}
+nav a:link { color: #F7F1E3; }
+nav a:visited { color: #B9EDF0; }
+nav a:hover { color: #FFFFFF; }
+
+
+aside {  padding: 1em;}
+
+main {   padding: 0 1em 1em;    }
+
+footer { background-color: #CCCCCC;
+        text-align: center;
+		 font-style: italic;
+		 padding: 1em; }
+
+      
+
+
+</style>
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <h1>Casita Sedona</h1>
+  </header>  
+  <nav>
+    <ul>
+	 <li><a href="index.html">Home</a></li>
+     <li><a href="rooms.html">Rooms</a></li>
+     <li><a href="specials.html">Specials</a></li>
+     <li><a href="contact.html">Contact</a></li>
+	</ul> 
+   </nav>
+    <main>   
+	<h2>Located in the Heart of Sedona</h2>
+    <p>At Casita Sedona Bed &amp; Breakfast you&rsquo;ll be close to art galleries, shops, restaurants, hiking trails, and tours. Ride the free trolley to shops and galleries.</p>
+    <h2>Luxurious Rooms </h2>
+    <p>Stay in a well-appointed room at Casita Sedona with your own fireplace, king-size bed, balcony overlooking the red rocks, private bath with shower, and whirlpool tub for two. Choose from the Canyon, Javelina, Manzanita, Thunder Mountain, and Schnebly rooms &mdash; each is unique and sure to be a high point of your vacation experience.</p>
+  	<h2>Hearty Breakfast</h2>
+    <p>Each day begins with a hearty breakfast that includes your choice of belgian waffles, pumpkin french toast, or quiche. Fresh fruit, yogurt, juice, and coffee are always available.</p>
+	<h2>About Your Hosts</h2>
+	<p>Your hosts, Melanie and Greg Tortuga, are long-time Sedona residents who love to share their knowledge of the Sedona area with their guests. Melanie is an author and artist. Greg has years of experience leading jeep tours and guiding hikes in and around Sedona.</p>
+   </main> 
+      <aside>
+     <img src="scenery.jpg"  alt="Owl Clover wildflowers with red rock mountain">
+	 <h2>Guided Hikes</h2>
+	 <p>Casita Sedona offers a free guided hike each week for guests. Explore the Seven Sacred Pools along the Soldiers Pass Trail.</p>
+   </aside>
+   <footer>Copyright &copy; 2020
+   </footer>
+</div>
+</body>
+</html>

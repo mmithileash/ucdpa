@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color:#E7E9EB;
+}
+#myDIV {
+  width:100%;
+  position:absolute;
+  height:300px;
+  background-color:#FFFFFF;
+}
+#myDIV div{
+  width:100px;
+  height:100px;
+  position:absolute;
+  background-color:blueviolet;
+  border:1px solid;
+  opacity:0.5;
+}
+#myBox {
+  position:absolute;
+  background-color:red!important;
+  opacity:1!important;
+  z-index: 6;
+}
+</style>
+</head>
+<body>
+
+<h1>The z-index property</h1>
+
+<div id="myDIV">
+  <div id="myBox">myBox</div>
+  <div style="top:20px;left:20px;z-index:0;">z-index 0</div>
+  <div style="top:40px;left:40px;z-index:1;">z-index 1</div>
+  <div style="top:60px;left:60px;z-index:2;">z-index 2</div>        
+  <div style="top:80px;left:80px;z-index:3;">z-index 3</div>            
+</div>
+
+</body>
+</html>
